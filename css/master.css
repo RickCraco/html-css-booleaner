@@ -1,0 +1,54 @@
+.logo{
+    width: 10%;
+    height: 10%;
+    margin-top: 20px;
+}
+
+.img-background{
+    background-color: rgb(26, 144, 223);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0%;
+}
+
+.autore{
+    color: grey;
+    margin-top: 5px;
+}
+
+.booleaner{
+    color: rgb(13, 159, 196);
+}
+
+#descrizioni-foto{
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+#lorem{
+    background-color: yellow;
+}
+
+ul{
+    margin: 0%;
+    padding-left: 15px;
+}
+
+table{
+    margin-top: 20px;
+    width: 80%;
+    
+}
+
+thead{
+    background-color: rgb(46, 148, 231);
+}
+
+th{
+    padding right: 50px;
+}
