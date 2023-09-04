@@ -1,25 +1,45 @@
-.logo{
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 
 .img-background{
     background-color: rgb(26, 144, 223);
     background-image: url("../img/pattern.png");
-    margin: 0%;
-    padding-bottom: 120px;
+    background-size: 20%;
+    height: 100px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.primo_paragrafo{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-left: 10px;
 }
 
 h1{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 0%;
+    margin-left: 20px;
 }
 
 .autore{
     color: grey;
     margin-top: 5px;
+    margin-left: 20px;
+}
+
+.immagini_header{
+    margin-left: 20px;
 }
 
 .booleaner{
@@ -36,21 +56,49 @@ h1{
 }
 
 ul{
-    margin: 0%;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 table{
     margin-top: 20px;
-    width: 80%;
-    
+    width: 100%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-spacing: 0px;
+}
+
+.secondo_paragrafo{
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 thead{
     background-color: rgb(46, 148, 231);
+    text-align: left;
+}
+
+footer{
+    margin-left: 20px;
 }
 
 #h3_footer{
+    margin-bottom: 10px;
     color: grey;
     font-size: 15px;
+}
+
+.monitor{
+    position: relative;
+}
+
+.graph{
+    position: relative;
+}
+
+.scritta_1 , .scritta_2{
+    position: absolute;
+    color: rgb(233, 225, 225);
+    top: 20px;
+    left: 15px;
+    display: inline-block;
 }
